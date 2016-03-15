@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Main Page</title>
+		<meta charset="UTF-8">
+		
+		<link href="maincss.css" rel="stylesheet"/>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+		<script type="text/javascript" src="http://flesler-plugins.googlecode.com/files/jquery.scrollTo-1.4.2-min.js"></script>
+        <script type="text/javascript" src="http://flesler-plugins.googlecode.com/files/jquery.localscroll-1.2.7-min.js"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#buttonlink').localScroll({duration:800});
+			});
+		</script>
+		
+	</head>
+	<body>
+
+		<div id="container">
+			<div id="menubar">
+				<p>Operating System</p>
+				
+			</div>
+			<div id="homeimg">
+				<div id="maintext">
+					<h2>Learn OS through Animation</h2>
+				</div>
+				
+				<div id="buttonlink">
+					<a href="#CPU">CPU</a>
+					<a href="#Real">Real Time</a>
+					<a href="#DL">Deadlock</a>
+					<a href="#PageR">Page</a>
+					<a href="#Disk">Disk</a>
+				</div>
+				
+			</div>
+			
+			<div id="option">
+				<div id="topcon">
+					<div id="CPU" class="lefttext">
+						<p>CPU Scheduling</p>
+					</div>
+					<div class="rightoption">
+						<ul>
+							<li><a href="fcfs.html">First-Come First-Serve</a></li>
+							<li><a href="#">Shortest-Job-First</a></li>
+							<li><a href="#">Priority</a></li>
+							<li><a href="#">Round Robin</a></li>
+							<li><a href="#">Multilevel Queue</a></li>
+							<li><a href="#">Multilevel Feedback Queue</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div id="botcon">
+					<div id="Real" class="righttext">
+						<p>Real Time Scheduling</p>
+					</div>
+					<div class="leftoption">
+						<ul>
+							<li><a href="#">Priority Based</a></li>
+							<li><a href="#">Rate-Monotonic</a></li>
+							<li><a href="#">Earliest Deadline First</a></li>
+							<li><a href="#">Proportional Share</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div id="topcon">
+					<div id="DL" class="lefttext">
+						<p>Deadlock</p>
+					</div>
+					<div class="rightoption">
+						<ul>
+							<li><a href="#">Deadlock Avoidance</a></li>
+							<li><a href="#">Deadlock Structure</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div id="botcon" >
+					<div id="PageR" class="righttext">
+						<p>Page Replacement Algorithm</p>
+					</div>
+					<div class="leftoption">
+						<ul>
+							<li><a href="#">Basic Page Replacement</a></li>
+							<li><a href="#">FIFO Page Replacement</a></li>
+							<li><a href="#">Optimal Page Replacement</a></li>
+							<li><a href="#">LRU Page Replacement</a></li>
+							<li><a href="#">Basic Page Replacement</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div id="topcon">
+					<div id="Disk" class="lefttext">
+						<p>Disk Scheduling</p>
+					</div>
+					<div class="rightoption">
+						<ul>
+							<li><a href="#">Deadlock Avoidance</a></li>
+							<li><a href="#">Deadlock Structure</a></li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+	</body>
+	
+</html>
